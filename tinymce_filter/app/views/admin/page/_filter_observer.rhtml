@@ -1,0 +1,3 @@
+<%- @page.parts.each_with_index do |value, index| -%>
+  <%= observe_field("part_#{index}_filter_id", :function => "text_input_method(#{index}, $('part_#{index}_filter_id').value)") %>
+<%- end -%>

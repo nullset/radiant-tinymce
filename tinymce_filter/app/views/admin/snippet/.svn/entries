@@ -1,0 +1,41 @@
+8
+
+dir
+9
+svn+ssh://root@profile-design.com/svn/profiledesign/trunk/vendor/extensions/tinymce_filter/app/views/admin/snippet
+svn+ssh://root@profile-design.com/svn/profiledesign
+
+
+
+2008-01-06T11:29:05.469780Z
+2
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7eef2b35-69a2-4761-a896-0bc3af4ee8e4
+
+edit.rhtml
+file
+
+
+
+
+2008-01-06T11:29:13.000000Z
+fd91cb0e51fcc3a5fc3a123cff795afe
+2008-01-06T11:29:05.469780Z
+2
+root
+has-props
+

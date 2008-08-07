@@ -1,0 +1,73 @@
+8
+
+dir
+9
+svn+ssh://root@profile-design.com/svn/profiledesign/trunk/public/javascripts/extensions/tiny_mce/plugins/codeprotect
+svn+ssh://root@profile-design.com/svn/profiledesign
+
+
+
+2008-01-06T11:29:05.469780Z
+2
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7eef2b35-69a2-4761-a896-0bc3af4ee8e4
+
+editor_plugin.js
+file
+
+
+
+
+2008-01-06T11:29:26.000000Z
+39d8d30ba19b618e7342bea3679a2789
+2008-01-06T11:29:05.469780Z
+2
+root
+has-props
+
+langs
+dir
+
+images
+dir
+
+editor_plugin_src.js
+file
+
+
+
+
+2008-01-06T11:29:26.000000Z
+39d8d30ba19b618e7342bea3679a2789
+2008-01-06T11:29:05.469780Z
+2
+root
+has-props
+
+readme.txt
+file
+
+
+
+
+2008-01-06T11:29:26.000000Z
+776cc9254c29ca1daf1aa85164979fcb
+2008-01-06T11:29:05.469780Z
+2
+root
+has-props
+

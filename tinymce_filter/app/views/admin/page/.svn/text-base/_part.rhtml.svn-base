@@ -1,0 +1,22 @@
+<%
+@part = part
+@index = (params[:index] || @index || 1).to_i
+-%>
+<div class="page" id="page-<%= @index %>">
+  <div class="part" id="part-<%= @index %>">
+    <%= hidden_field_tag "part[#{@index - 1}][name]", @part.name %>
+    <p>
+      <label for="part[<%= @index - 1 %>}][filter_id]">Filter</label>
+      <%= select_tag "part[#{@index - 1}][filter_id]", options_for_select([['<none>', '']] + TextFilter.descendants.map { |s| s.filter_name }.sort, @part.filter_id) %>
+      <span id="reference-links">Reference: <span id="filter-reference-link-<%= @index-1 %>"><%= link_to_function "Filter", "load_filter_reference(#{@index - 1})" %></span> <span id="tag-reference-link-<%= @index -1 %>"><%= link_to_function 'Available Tags', "load_tag_reference(#{@index-1});" %></span></span>
+    </p>
+
+    <div><%= text_area_tag "part[#{@index - 1}][content]", h(@part.content), :class => "textarea", :style => "width: 100%" %></div>
+
+		<%= observe_field("part[#{@index - 1}][filter_id]", :function => "text_input_method(#{@index}, value)") %>
+
+  </div>
+</div>
+<%
+@index += 1;
+-%>

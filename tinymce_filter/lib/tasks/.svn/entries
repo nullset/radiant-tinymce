@@ -1,0 +1,41 @@
+8
+
+dir
+9
+svn+ssh://root@profile-design.com/svn/profiledesign/trunk/vendor/extensions/tinymce_filter/lib/tasks
+svn+ssh://root@profile-design.com/svn/profiledesign
+
+
+
+2008-01-06T11:29:05.469780Z
+2
+root
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7eef2b35-69a2-4761-a896-0bc3af4ee8e4
+
+tinymce_filter_extension_tasks.rake
+file
+
+
+
+
+2008-01-06T11:29:13.000000Z
+dfa9ab2815b91ae6cf8e87491dbe065a
+2008-01-06T11:29:05.469780Z
+2
+root
+has-props
+
