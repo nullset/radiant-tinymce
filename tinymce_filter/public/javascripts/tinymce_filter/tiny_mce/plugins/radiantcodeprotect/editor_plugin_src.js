@@ -104,7 +104,6 @@
 						
       ed.onPostProcess.add(function(ed, o) {
         __toggleRadiantTags(ed, o);
-        alert(o.content);
       });
       
 			ed.onBeforeSetContent.add(function(ed, o) {
